@@ -1,0 +1,33 @@
+.blocco_song {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+}
+.blocco_song img{
+    width: 10rem;
+    height: 10rem; 
+    border-radius: 10%;
+    margin:5%;
+}
+.blocco_song a {
+    color: whitesmoke; 
+    font-size: 1.3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 1rem;
+}
+#sez_playlist_trovate{
+    display:flex;
+    flex-wrap: wrap; 
+}
+.errore {                 
+    font-size: 1.4rem;
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+    padding: 20px;
+}
+#mode{
+    margin-right: 10px;
+    color: whitesmoke; 
+    
+}

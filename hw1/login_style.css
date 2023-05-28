@@ -1,0 +1,197 @@
+@media (min-width: 450px) {
+ html{
+   
+background-image: radial-gradient(circle, rgb(253, 73, 73), rgb(252, 73, 73), rgb(253, 176, 176)); 
+        
+}
+article{
+
+   position: relative;
+   font-size: large;
+   height: 70%;
+   
+}
+#Background{
+   height: 125%;
+   filter: blur(1.4px);
+   z-index: -1;
+   position: absolute;
+   right: 10%;
+   border-radius: 20%;
+   top: 20%; 
+
+ }
+ h1{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: oblique;
+   text-shadow: 2px 2px 3px black;
+   text-align: center;
+   color:ghostwhite; 
+}
+#descrizione{
+   text-align: center;
+   text-shadow: 1px 1px 3px ghostwhite;
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main {
+   display: flex;   
+
+}
+.Container{
+ 
+   font-style: italic;
+   font-weight: bold;
+   margin-top: 50px;
+   margin-left: 50px;
+}
+.Label{
+    
+   align-items: center;
+   margin-left: 20px;
+   display:flex;
+}
+input{
+   margin-left: 0.5em;
+}
+footer{
+   margin-top: 28px; 
+   text-align: start;
+
+}
+#Product{
+
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: medium;
+   font-style: italic;
+}
+.Form{
+   position: relative; 
+   padding: 15px;
+   padding-right: 40px;
+   margin-left: 150px;
+  
+   }
+   #link{
+      text-align: end;
+      text-shadow: 1px 1px 3px silver;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   #link a{
+      color: ghostwhite; 
+      text-shadow: 2px 2px 3px black;
+      }
+     
+#LoginAmministratore{
+   text-align: center;
+   font-size: medium;
+ }
+     
+ #erroreAdmin,#erroreUser  {
+   position: absolute;
+   color: ghostwhite;
+   text-shadow: 2px 2px 3px black; 
+   font-size: small;
+   bottom: -20px;
+   left: 150px; 
+   z-index: 2;  
+}
+}
+@media (max-width: 450px) {
+    html{
+   
+    background-image: radial-gradient(circle, rgb(253, 73, 73), rgb(252, 73, 73), rgb(253, 176, 176)); 
+            
+    }
+    article{
+
+        position: relative;
+        font-size: large;
+        height: 70%;
+        
+    } 
+    #Background{
+        height: 20em;
+        width: 10em; 
+        filter: blur(1.4px);
+        z-index: -1;
+        position: absolute;
+        right: 1em;
+        border-radius: 20%;
+        top: 15em; 
+     
+    }
+     h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: oblique;
+        text-shadow: 2px 2px 3px black;
+        text-align: center;
+        color:ghostwhite; 
+    }
+     #descrizione{
+        text-align: center;
+        text-shadow: 1px 1px 3px ghostwhite;
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+     main {
+        display: flex;   
+    }
+    .Container{
+ 
+        font-style: italic;
+        font-weight: bold;
+        margin-top: 2rem;
+    }
+     .Label{
+    
+        align-items: center;
+        margin-left: 1rem;
+        display:flex;
+    }
+     input{
+        margin-left: 0.8rem;
+    }
+    footer{
+        margin-top: 15rem; 
+        text-align: start;
+    
+     }
+     #Product{
+    
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        font-style: italic;
+        margin-top: 2em;
+     }
+    .Form{
+        position: relative; 
+       
+    }
+    #link{
+        text-align: center;
+        text-shadow: 1px 1px 3px silver;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 2rem;
+     }
+    
+     #link a{
+     color: ghostwhite; 
+     text-shadow: 2px 2px 3px black;
+     }
+    
+     #LoginAmministratore{
+        text-align: center;
+        font-size: large;
+     }
+     #erroreAdmin,#erroreUser  {
+        position: absolute;
+        color: ghostwhite;
+        text-shadow: 2px 2px 3px black; 
+        font-size: medium;
+        bottom: -3rem;
+        left: 1em; 
+        z-index: 2;  
+     }
+
+}
